@@ -1,0 +1,12 @@
+-once all fields are properly filled, the save button activates. // css
+-if there was a selected element and error the same selected element will be selected.
+if (selectedType === "dvd") {
+    console.log("its at dvd");
+    dvdField.style.display = "block";
+  } else if (selectedType === "book") {
+    bookField.style.display = "block";
+    console.log("its at book");
+  } else if (selectedType === "furniture") {
+    furnitureField.style.display = "block";
+    console.log("its at furniture");
+  }
